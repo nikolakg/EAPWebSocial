@@ -1,0 +1,14 @@
+﻿@startuml
+autonumber
+Bob -> Alice : Ελεγχος Άχα Request
+Bob <- Alice : Authentication Response
+Yannis -> Gina : HELP!!
+autonumber 15
+Bob --\ Alice : Another authentication Request
+Bob <- Alice : Another authentication Response
+
+autonumber 40 10
+Bob -> Alice : Yet another yannis loves you
+Bob <- Alice : Yet another authentication Response
+
+@enduml
